@@ -65,29 +65,88 @@
 }
 .intro_bg .intro .title_icon {}
 .intro_bg .intro .title_icon img {width:100%;}
+.intro_bg .intro .sub_title {}
 .intro_bg .intro h2 {}
-.intro_bg .intro p {}
 .intro_bg .intro ul {}
 /* 소개 - 산리오 하모니 */
 .intro_bg .intro ul .jp_sanrio {}
 .intro_bg .intro ul .jp_sanrio h2 {}
 .intro_bg .intro ul .jp_sanrio .contents {}
-.intro_bg .intro ul .jp_sanrio .contents .contents_img {}
+.intro_bg .intro ul .jp_sanrio .contents .contentsimg {}
+.intro_bg .intro ul .jp_sanrio .contents .contentsimg img {}
 .intro_bg .intro ul .jp_sanrio .contents h2 {}
 .intro_bg .intro ul .jp_sanrio .contents .explanation {}
 /* 소개 - 유니버셜 */
 .intro_bg .intro ul .us_universal {}
 .intro_bg .intro ul .us_universal h2 {}
 .intro_bg .intro ul .us_universal .contents {}
-.intro_bg .intro ul .us_universal .contents .contents_img {}
+.intro_bg .intro ul .us_universal .contents .contentsimg {}
+.intro_bg .intro ul .us_universal .contents .contentsimg img {}
 .intro_bg .intro ul .us_universal .contents h2 {}
 .intro_bg .intro ul .us_universal .contents .explanation {}
 /* 소개 - uk_harry */
+.intro_bg .intro ul .uk_harry .h2 {}
+.intro_bg .intro ul .uk_harry .contents {}
+.intro_bg .intro ul .uk_harry .contents .contentsimg {}
+.intro_bg .intro ul .uk_harry .contents .contentsimg img {}
+.intro_bg .intro ul .uk_harry .contents h2 {}
+.intro_bg .intro ul .uk_harry .contents .explanation {}
+/* 3. 어트랙션 */
 .attraction {}
 .attraction .title_icon {}
 .attraction .title_icon img {width:100%;}
-/* 3. 어트랙션 */
+.attraction .sub_title {}
+.attraction h2 {}
+/* 산리오 캐릭터 보트 - top*/
+.attraction .top {}
+.attraction .top .boat {}
+.attraction .top .boat .contentsimg {}
+.attraction .top .boat .contentsimg img {}
+.attraction .top .boat h2 {}
+.attraction .top .boat .info {}
+.attraction .top .boat .info span {}
+/* btm */
+.attraction .btm {}
+/* 슈퍼마리오 월드 */
+.attraction .btm .mario {}
+.attraction .btm .mario .contentsimg {}
+.attraction .btm .mario .contentsimg img {}
+.attraction .btm .mario h2 {}
+.attraction .btm .mario .info {}
+.attraction .btm .mario .info span {}
+/* 다이애건 앨리 */
+.attraction .btm .diagon {}
+.attraction .btm .diagon .contentsimg {}
+.attraction .btm .diagon .contentsimg img {}
+.attraction .btm .diagon h2 {}
+.attraction .btm .diagon .info {}
+.attraction .btm .diagon .info span {}
 /* 4. 패키지 */
-/* 5. 퀴즈공유 */
+.package_bg {}
+.package_bg .package {}
+.package_bg .package .title_icon {}
+.package_bg .package .title_icon img {}
+.package_bg .package .sub_title {}
+.package_bg .package .h2 {}
+.package_bg .package .pack_contens {}
+/* 하모니 랜드 패키지 */
+.package_bg .package .pack_contens .harmony {}
+.package_bg .package .pack_contens .harmony .left {}
+.package_bg .package .pack_contens .harmony .left img {}
+.package_bg .package .pack_contens .harmony .right {}
+.package_bg .package .pack_contens .harmony .right .top{}
+.package_bg .package .pack_contens .harmony .right .top h2{}
+.package_bg .package .pack_contens .harmony .right .top .sub_title {}
+.package_bg .package .pack_contens .harmony .right .top .contents {}
+.package_bg .package .pack_contens .harmony .right .btm {}
+.package_bg .package .pack_contens .harmony .right .btm .left {}
+.package_bg .package .pack_contens .harmony .right .btm .left .benefit {}
+.package_bg .package .pack_contens .harmony .right .btm .left .benefit span {}
+.package_bg .package .pack_contens .harmony .right .btm .left .benefit em {}
+.package_bg .package .pack_contens .harmony .right .btm .left .price del {}
+.package_bg .package .pack_contens .harmony .right .btm .left .price em {}
+.package_bg .package .pack_contens .harmony .right .btm .more {}
+/* 유니버셜 패키지 */
+/* 5. 퀴즈공유 */ 
 /* 6. 이벤트경품 */
 /* 7. 유의사항 */
