@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Cute+Font&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Black+Han+Sans&display=swap');
 /* font-family: 'Black Han Sans', sans-serif; */
 /* font-family: 'Cute Font', cursive; */
 .title_bg title,
@@ -123,7 +125,7 @@
 .intro_bg .intro ul .jp_sanrio .contentsimg {}
 .intro_bg .intro ul .jp_sanrio .contentsimg img {}
 .intro_bg .intro ul .jp_sanrio .contents {
-    height:208px;
+    height:230px;
 }
 .intro_bg .intro ul .jp_sanrio .contents h2 {}
 .intro_bg .intro ul .jp_sanrio .contents .explanation {}
@@ -132,7 +134,9 @@
 .intro_bg .intro ul .us_universal h2 {}
 .intro_bg .intro ul .us_universal .contentsimg {}
 .intro_bg .intro ul .us_universal .contentsimg img {}
-.intro_bg .intro ul .us_universal .contents {}
+.intro_bg .intro ul .us_universal .contents {
+    height:230px;
+}
 .intro_bg .intro ul .us_universal .contents h2 {}
 .intro_bg .intro ul .us_universal .contents .explanation {}
 /* 소개 - uk_harry */
@@ -140,7 +144,9 @@
 .intro_bg .intro ul .uk_harry h2 {}
 .intro_bg .intro ul .uk_harry .contentsimg {}
 .intro_bg .intro ul .uk_harry .contentsimg img {}
-.intro_bg .intro ul .uk_harry .contents {}
+.intro_bg .intro ul .uk_harry .contents {
+    height:230px;
+}
 .intro_bg .intro ul .uk_harry .contents h2 {}
 .intro_bg .intro ul .uk_harry .contents .explanation {}
 /* 3. 어트랙션 */
@@ -720,7 +726,7 @@
 .event_bg .event .title  h2 {}
 .event_bg .event .title .date {}
 .event_bg .event .contents {
-    width:874px; 
+    width:874px;
     display:flex;
     flex-flow: row nowrap;
     justify-content: space-between;
