@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Black+Han+Sans&display=swap');
 /* font-family: 'Black Han Sans', sans-serif; */
 /* font-family: 'Cute Font', cursive; */
-.title_bg title,
+.title_bg .title,
 .intro_bg .intro,
 .attraction_bg .attraction,
 .package_bg .package,
@@ -502,7 +502,7 @@
 .package_bg .package .pack_contens .harry .right {
     width:858px;
     border-radius:0 40px 0 40px;
-    background-color: #fff;
+    background:#fff;
     padding:30px 17px;
     display:flex;
     flex-flow: column nowrap;
@@ -591,7 +591,6 @@
 }
 .quiz_sns_bg .quiz_sns {
     padding:100px 0;
-    letter-spacing:-0.02em;
 }
 .quiz_sns_bg .quiz_sns .title {
     letter-spacing:-0.02em;
@@ -697,14 +696,46 @@
 .quiz_sns_bg .quiz_sns .contents .right .top ul li img {
 }
 .quiz_sns_bg .quiz_sns .contents .right .top ul li span {
+    letter-spacing:-0.04em;
+    line-height:30px;
+    color:#fff;
     text-align:center;
 
 }
-.quiz_sns_bg .quiz_sns .contents .right .top ul li span::after {
-}
-.quiz_sns_bg .quiz_sns .contents .right .top p {}
-.quiz_sns_bg .quiz_sns .contents .right .top p a {}
+.quiz_sns_bg .quiz_sns .contents .right .top ul li span:nth-child(2) {
+    margin:20px 0 0 0;
+    font-weight: 500;
 
+}
+.quiz_sns_bg .quiz_sns .contents .right .top p {
+    color:#fff;
+    letter-spacing: -0.02em;
+    margin:20px 0 22px;
+}
+.quiz_sns_bg .quiz_sns .contents .right a {
+    display:flex;
+    flex-flow:row nowrap;
+    align-items:center;
+    border-radius:43px;
+    background-color: #FF507A;
+    padding:30px 95px;
+    margin: 0 0 20px 0;
+}
+.quiz_sns_bg .quiz_sns .contents .right a span {
+    letter-spacing: -0.02em;
+    margin-right:10px;
+    font-size:1.777rem;
+    color:#fff;
+}
+.quiz_sns_bg .quiz_sns .contents .right a img {
+    width:20px; height:20px;
+    font-size:1.777rem;
+    color:#fff;
+}
+.quiz_sns_bg .quiz_sns .contents .right p {
+    letter-spacing: -0.02em;
+    color:#fff;
+}
 /* 6. 이벤트경품 */
 .event_bg {
     background:#FFFFD0;
@@ -723,9 +754,22 @@
 .event_bg .event .title .title_icon {
 }
 .event_bg .event .title .title_icon img {width:100%;}
-.event_bg .event .title  h2 {}
-.event_bg .event .title .date {}
+.event_bg .event .title  h2 {
+    letter-spacing:-0.02em;
+    color:#8157B7;
+    font-size:2.369rem;
+    font-family: 'Black Han Sans', sans-serif;
+    margin:30px 0;
+}
+.event_bg .event .title .date {
+    color:#fff;
+    font-size:1.333rem; letter-spacing:-0.02em;
+    padding:10px 15px; border-radius:24.5px;
+    background:#8157B7;
+    margin-bottom:60px;
+}
 .event_bg .event .contents {
+    letter-spacing: -0.02em;
     width:874px;
     display:flex;
     flex-flow: row nowrap;
@@ -735,21 +779,48 @@
     border-radius:20px;
 }
 .event_bg .event .contents p {
+    letter-spacing: -0.02em;
+    height:264px;
     display:flex;
     flex-flow:column nowrap;
+    justify-content:space-between;
+    
     
 }
 .event_bg .event .contents p img {}
 .event_bg .event .contents p span {
+    letter-spacing: -0.02em;
+    line-height:30px;
     text-align:center;
 }
 /* 7. 유의사항 */
-.cancel {}
-.cancel .top {}
-.cancel .top h3 {}
-.cancel .top ul {}
-.cancel .top li {}
+.cancel {
+    padding:100px;
+}
+.cancel .top {
+    margin:0 0 50px 0;
+}
+.cancel .top h3 {
+    color:#8157B7;
+    font-size:1.333rem;
+    font-weight:700;
+    letter-spacing:-0.02em;
+    margin:0 0 30px 0;
+}
+.cancel .top p {
+    font-weight:500;
+    line-height:40px;
+    letter-spacing:-0.02em;
+}
 .cancel .btm {}
-.cancel .btm h3 {}
-.cancel .btm ul {}
-.cancel .btm li {}
+.cancel .btm h3 {
+    color:#8157B7;
+    font-weight:700;
+    margin:0 0 30px 0;
+    letter-spacing:-0.02em;
+}
+.cancel .btm p {
+    line-height:40px;
+    font-weight:500;
+    letter-spacing:-0.02em;
+}
