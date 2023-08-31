@@ -312,7 +312,7 @@
     width:858px;
     border-radius:0 40px 0 40px;
     background-color: #fff;
-    padding:30px 17px;
+    padding:20px 17px;
     display:flex;
     flex-flow: column nowrap;
     justify-content: space-between;
@@ -326,7 +326,7 @@
 }
 .package_bg .package .pack_contens .harmony .right .top .sub_title {
     letter-spacing:-0.02em;
-    margin:25px 0;
+    margin:15px 0;
     font-size:1.333rem;
     text-decoration:underline;
 }
@@ -410,7 +410,7 @@
     display:flex;
     flex-flow: column nowrap;
     justify-content: space-between;
-    padding:30px 17px;
+    padding:20px 17px;
 }
 .package_bg .package .pack_contens .universal .left .top {}
 .package_bg .package .pack_contens .universal .left .top h2 {
@@ -421,7 +421,7 @@
 }
 .package_bg .package .pack_contens .universal .left .top .sub_title {
     letter-spacing:-0.02em;
-    margin:25px 0;
+    margin:15px 0;
     font-size:1.333rem;
     text-decoration:underline;
 } 
@@ -503,7 +503,7 @@
     width:858px;
     border-radius:0 40px 0 40px;
     background:#fff;
-    padding:30px 17px;
+    padding:20px 17px;
     display:flex;
     flex-flow: column nowrap;
     justify-content: space-between;
@@ -517,7 +517,7 @@
 }
 .package_bg .package .pack_contens .harry .right .top .sub_title {
     letter-spacing:-0.02em;
-    margin:25px 0;
+    margin:15px 0;
     font-size:1.333rem;
     text-decoration:underline;
 }
