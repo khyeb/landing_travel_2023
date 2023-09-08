@@ -325,10 +325,12 @@
     color:#8157B7;
 }
 .package_bg .package .pack_contens .harmony .right .top .sub_title {
+    padding-bottom:3px;
+    display: inline-block;
     letter-spacing:-0.02em;
     margin:15px 0;
     font-size:1.333rem;
-    text-decoration:underline;
+    border-bottom:1px solid #000;
 }
 .package_bg .package .pack_contens .harmony .right .top .contents {
     letter-spacing:-0.02em;
@@ -420,10 +422,12 @@
     color:#8157B7;
 }
 .package_bg .package .pack_contens .universal .left .top .sub_title {
+    padding-bottom:3px;
+    display: inline-block;
     letter-spacing:-0.02em;
     margin:15px 0;
     font-size:1.333rem;
-    text-decoration:underline;
+    border-bottom:1px solid #000;
 } 
 .package_bg .package .pack_contens .universal .left .top .contents {
     letter-spacing:-0.02em;
@@ -516,10 +520,12 @@
     color:#8157B7;
 }
 .package_bg .package .pack_contens .harry .right .top .sub_title {
+    padding-bottom:3px;
+    display: inline-block;
     letter-spacing:-0.02em;
     margin:15px 0;
     font-size:1.333rem;
-    text-decoration:underline;
+    border-bottom:1px solid #000;
 }
 .package_bg .package .pack_contens .harry .right .top .contents {}
 .package_bg .package .pack_contens .harry .right .btm {
